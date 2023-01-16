@@ -1,0 +1,38 @@
+{
+    "name": "Play Struckd",
+    "short_name": "Play Struckd",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Play Struckd Games",
+    "theme_color": "#fff",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "AppIcon/72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "AppIcon/96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "AppIcon/144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "AppIcon/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "AppIcon/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

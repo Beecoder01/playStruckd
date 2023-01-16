@@ -1,0 +1,44 @@
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+img{
+    -webkit-user-drag: none;
+}
+.parent {
+    min-width: 100%;
+    min-height: 110px;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.child {
+    min-width: 10rem;
+    max-width: 10rem;
+    min-height: 100px;
+    margin: 2px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.p_icon {
+    min-width: 6rem;
+    max-width: 6rem;
+}
+
+#searchBox {
+    max-width: "150px";
+}
+
+@media only screen and (max-width: 600px) {
+    #searchBox {
+        max-width: "300px";
+    }
+}
+.minH100px{
+    min-height: 150px;
+    max-height: 150px;
+}

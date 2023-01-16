@@ -1,5 +1,5 @@
 const cacheName = 'beecoder_ml';
-const staticAssets = ['./', './index.html'];
+const staticAssets = [ './index.html'];
 
 self.addEventListener('install', async e => {
     const cache = await caches.open(cacheName);
